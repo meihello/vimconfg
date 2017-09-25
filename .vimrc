@@ -51,7 +51,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 "自动补全
-Bundle 'https://github.com/Valloric/YouCompleteMe.git'
+"Bundle 'https://github.com/Valloric/YouCompleteMe.git'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
 let python_highlight_all=1
@@ -81,8 +81,8 @@ nnoremap <space> za
 
 "pip8
 "多余space
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-au BufNewFile,BufRead *.py
+"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+"au BufNewFile,BufRead *.py
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
